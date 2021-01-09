@@ -1,0 +1,10 @@
+#IDEA
+.idea
+.iml
+
+#jar and report file
+/target/
+/asura_xxqg/target/
+/asura_sjxf/target/
+/test-output/
+/allure-results/
