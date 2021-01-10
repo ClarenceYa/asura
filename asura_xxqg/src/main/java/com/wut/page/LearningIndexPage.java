@@ -30,7 +30,7 @@ public class LearningIndexPage extends AbstractParentPage {
 
 
     public LearningIndexPage(AndroidDriver<AndroidElement> driver) {
-        super(driver);
+        super(driver) ;
         PageFactory.initElements(new AppiumFieldDecorator(driver, ofSeconds(5)), this);
     }
 

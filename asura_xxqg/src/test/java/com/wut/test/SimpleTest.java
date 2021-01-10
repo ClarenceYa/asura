@@ -19,8 +19,8 @@ public class SimpleTest extends BaseTest {
     @Test
     public void browseVideo() {
         pageTurnsService.switchModule("电视台");
-//        pageTurnsService.choiceNavigationBar("联播频道");
-        pageTurnsService.choiceNavigationBar("学习视频");
+        pageTurnsService.choiceNavigationBar("联播频道");
+//        pageTurnsService.choiceNavigationBar("学习视频");
 //        pageTurnsService.choiceNavigationBar("第一频道");
 //        browseService.longTimeBrowseResource(362);
         browseService.browseResources(61, "1");
